@@ -131,7 +131,7 @@ a {
   height: auto;
   width: 40%;
 }
-.right_content {
+.right_content.image {
   float: right;
   border-radius: 10px 10px 10px 10px;
   width: 45%;
@@ -151,7 +151,4 @@ a {
   border: 0em;
 }
 
-.image{
-  height:500px;
-  width:250px;
-}
+
