@@ -131,7 +131,7 @@ a {
   height: auto;
   width: 40%;
 }
-.right_content.image {
+.right_content{
   float: right;
   border-radius: 10px 10px 10px 10px;
   width: 45%;
