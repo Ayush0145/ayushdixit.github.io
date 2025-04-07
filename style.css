@@ -1,0 +1,152 @@
+:root {
+  --mainText: black;
+  --secondaryText: white;
+  --borderColor: rgb(125, 165, 146);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.sub_wrapper {
+  text-align: center;
+  margin: 5px 5px 0 0;
+  background-color: var(--secondaryText);
+}
+
+.main_content {
+  margin: 20px;
+}
+
+.navigation {
+  border: 1px dashed var(--borderColor);
+  border-radius: 3em;
+  height: 5em;
+}
+
+.dots {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  -webkit-box-shadow: 29px 37px 56px 1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 29px 37px 56px 1px rgba(0, 0, 0, 0.69);
+  float: left;
+  display: flex;
+}
+#button_one {
+  background-color: red;
+}
+#button_two {
+  background-color: rgb(179, 255, 0);
+}
+#button_three {
+  background-color: rgb(253, 99, 9);
+}
+
+.Nav_lines {
+  height: 50px;
+  width: 50px;
+  float: right;
+  background-color: white;
+  border: none;
+  display: grid;
+  position: relative;
+  right: 5%;
+}
+
+.line_one {
+  border: 2px solid black;
+  height: 5px;
+  width: 100%;
+}
+.line_two {
+  border: 2px solid rgb(0, 0, 0);
+  height: 5px;
+  width: 100%;
+}
+.line_three {
+  border: 2px solid rgb(0, 0, 0);
+  height: 5px;
+  width: 100%;
+}
+.content_wrapper {
+  height: 500px;
+
+  margin: 20px;
+}
+
+.left_content_one {
+  float: left;
+  border-radius: 10px 10px 10px 10px;
+  width: 45%;
+  /*border: 2px dashed var(--borderColor);*/
+  height: 30em;
+  display: flex;
+  justify-content: space-between;
+}
+#left_one {
+  border: none;
+  height: 15em;
+  width: 40em;
+  background-color: blueviolet;
+}
+#left_two {
+  border: none;
+  height: 15em;
+  width: 30em;
+  background-color: rgb(43, 226, 214);
+}
+#left_three {
+  border: none;
+  height: 15em;
+  width: 10em;
+  background-color: rgb(241, 124, 65);
+}
+
+.left_content_two {
+  border: 1px solid black;
+  position: relative;
+  top: 16em;
+  right: 40.4em;
+  height: auto;
+  width: 40%;
+}
+.right_content {
+  float: right;
+  border-radius: 10px 10px 10px 10px;
+  width: 45%;
+  border: 2px dashed black;
+  height: 30em;
+}
+
+.backtotop p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.back_to_top {
+  background-color: rgb(200, 189, 245);
+  height: 100px;
+  width: 100px;
+  border: 0em;
+}
