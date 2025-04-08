@@ -95,12 +95,12 @@ a {
   margin: 20px;
 }
 
-.left_content_one {
+.left_content{
   float: left;
   border-radius: 10px 10px 10px 10px;
   width: 45%;
   /*border: 2px dashed var(--borderColor);*/
-  height: 30em;
+  height: 30%;
   display: flex;
   justify-content: space-between;
 }
