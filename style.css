@@ -10,7 +10,7 @@ body {
 }
 
 h1,
-h2 {
+h2,h4,p {
   font-family: "Poppins", sans-serif;
 }
 
@@ -56,6 +56,7 @@ a {
 #button_one {
   background-color: red;
 }
+
 #button_two {
   background-color: rgb(179, 255, 0);
 }
@@ -95,20 +96,31 @@ a {
   margin: 20px;
 }
 
-.left_content_one {
+.left_content {
   float: left;
   border-radius: 10px 10px 10px 10px;
   width: 45%;
   /*border: 2px dashed var(--borderColor);*/
-  height: 30em;
+  height: 60%;
   display: flex;
   justify-content: space-between;
 }
-#left_one {
+/*#left_one {
   border: none;
   height: 15em;
   width: 40em;
   background-color: blueviolet;
+}
+.left_h1{
+  width:100%;
+  height:100%;
+
+}
+.left_h4{
+  width:100%
+}
+.left_p{
+  width:100%
 }
 #left_two {
   border: none;
@@ -122,21 +134,38 @@ a {
   width: 10em;
   background-color: rgb(241, 124, 65);
 }
+*/
 
-.left_content_two {
-  border: 1px solid black;
-  position: relative;
-  top: 16em;
-  right: 40.4em;
-  height: auto;
+#left_one {
+  color: var(--secondaryText);
+  border: none;
+  height: 100%;
   width: 40%;
+  background-color: blueviolet;
 }
-.right_content{
+
+#left_two {
+  border: none;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(43, 226, 214);
+}
+#left_three {
+  color: var(--secondaryText);
+  border: none;
+  height: 100%;
+  width:30% ;
+  background-color: rgb(241, 124, 65);
+}
+
+
+.right_content {
   float: right;
   border-radius: 10px 10px 10px 10px;
   width: 45%;
   border: 2px dashed black;
   height: 30em;
+
 }
 
 .backtotop p {
@@ -150,5 +179,3 @@ a {
   width: 100px;
   border: 0em;
 }
-
-
